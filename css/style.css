@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0d6efd;
+    --primary: rgb(13, 75, 133); 
     --secondary: #555555;
     --light: #F1F3FA;
     --dark: #1C2035;
@@ -159,8 +159,8 @@
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: rgb(13, 75, 133);
+    border: 15px solid rgb(13, 75, 133);
 }
 
 @media (max-width: 768px) {
@@ -219,7 +219,7 @@
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: var(--primary);
+    background: rgb(13, 75, 133);
 }
 
 .btn-play:before {
@@ -232,7 +232,7 @@
     display: block;
     width: 90px;
     height: 90px;
-    background: var(--primary);
+    background: rgb(13, 75, 133);
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -247,7 +247,7 @@
     display: block;
     width: 90px;
     height: 90px;
-    background: var(--primary);
+    background: rgb(13, 75, 133);
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -324,7 +324,7 @@
 }
 
 .service-item:hover .service-text h5 {
-    color: var(--primary);
+    color: rgb(13, 75, 133);
 }
 
 .service-item .service-btn {
@@ -399,7 +399,7 @@
 
 .project-carousel .owl-nav .owl-prev:hover,
 .project-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
+    background: rgb(13, 75, 133);
     color: #FFFFFF;
 }
 
@@ -458,7 +458,7 @@
 
 .team-item .team-social li .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: rgb(13, 75, 133);
 }
 
 .team-item .team-social li:nth-child(1) {
@@ -495,7 +495,7 @@
 
 .owl-item.center .testimonial-item,
 .testimonial-item:hover {
-    background: var(--primary);
+    background: rgb(13, 75, 133);
 }
 
 .owl-item.center .testimonial-item *,
@@ -533,7 +533,7 @@
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
+    background: rgb(13, 75, 133);
     color: #FFFFFF;
 }
 
@@ -594,5 +594,5 @@
 }
 
 .copyright a:hover {
-    color: var(--primary) !important;
+    color: rgb(13, 75, 133) !important;
 }
