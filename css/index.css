@@ -306,6 +306,7 @@
 .service-item .service-text {
     position: relative;
     width: 100%;
+    height: 500px;
     top: 0;
     left: 0;
     text-align: center;
