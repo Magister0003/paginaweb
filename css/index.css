@@ -82,6 +82,20 @@
     transition: .5s;
 }
 
+
+.container .navbar .collapse .navbar-nav .logo{
+    width: 295px; 
+    height: 80px; 
+    padding: 5px 0 5px 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px){
+    .navbar-nav img{
+        display: none;
+    }
+}
+
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
@@ -161,6 +175,7 @@
     border-radius: 3.5rem;
     background-color: rgb(13, 75, 133);
     border: 15px solid rgb(13, 75, 133);
+    opacity: 0.5;
 }
 
 @media (max-width: 768px) {
@@ -310,10 +325,22 @@
     top: 0;
     left: 0;
     text-align: center;
-    background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .06);
     transition: .5s;
     z-index: 2;
+    color: white;
+}
+
+.service-item .service-text h5{
+    color: white;
+}
+
+.service-item .service-text:hover {
+    background: white !important;
+}
+
+.service-item .service-text:hover * {
+    color: rgb(13, 75, 133);
 }
 
 .service-item:hover .service-text {
@@ -505,9 +532,9 @@
 }
 
 .testimonial-item img {
-    width: 100px !important;
+    width: 150px !important;
     height: 100px !important;
-    border-radius: 100px;
+    
 }
 
 .testimonial-carousel .owl-nav {

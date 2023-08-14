@@ -2342,8 +2342,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2356,7 +2356,7 @@ textarea.form-control-lg {
 
 .form-check-input[type="checkbox"]:indeterminate {
     background-color: rgb(13, 75, 133);
-    border-color: #4761FF;
+    border-color: rgb(13, 75, 133);;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
 }
 
@@ -2443,7 +2443,7 @@ textarea.form-control-lg {
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background-color: #4761FF;
+    background-color: rgb(13, 75, 133);;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
@@ -2473,7 +2473,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #4761FF;
+    background-color: rgb(13, 75, 133);;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
@@ -2852,8 +2852,8 @@ textarea.form-control-lg {
 
 .btn-primary {
     color: #fff;
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .btn-primary:hover {
@@ -2881,8 +2881,8 @@ textarea.form-control-lg {
 
 .btn-primary:disabled,.btn-primary.disabled {
     color: #fff;
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .btn-secondary {
@@ -3131,14 +3131,14 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-    color: #4761FF;
-    border-color: #4761FF
+    color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .btn-check:focus+.btn-outline-primary,.btn-outline-primary:focus {
@@ -3147,8 +3147,8 @@ textarea.form-control-lg {
 
 .btn-check:checked+.btn-outline-primary,.btn-check:active+.btn-outline-primary,.btn-outline-primary:active,.btn-outline-primary.active,.btn-outline-primary.dropdown-toggle.show {
     color: #fff;
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .btn-check:checked+.btn-outline-primary:focus,.btn-check:active+.btn-outline-primary:focus,.btn-outline-primary:active:focus,.btn-outline-primary.active:focus,.btn-outline-primary.dropdown-toggle.show:focus {
@@ -3156,7 +3156,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary:disabled,.btn-outline-primary.disabled {
-    color: #4761FF;
+    color: rgb(13, 75, 133);;
     background-color: transparent
 }
 
@@ -3372,7 +3372,7 @@ textarea.form-control-lg {
 
 .btn-link {
     font-weight: 400;
-    color: #4761FF;
+    color: rgb(13, 75, 133);;
     text-decoration: none
 }
 
@@ -3704,7 +3704,7 @@ textarea.form-control-lg {
 .dropdown-item.active,.dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #4761FF
+    background-color: rgb(13, 75, 133);
 }
 
 .dropdown-item.disabled,.dropdown-item:disabled {
@@ -3749,7 +3749,7 @@ textarea.form-control-lg {
 
 .dropdown-menu-dark .dropdown-item.active,.dropdown-menu-dark .dropdown-item:active {
     color: #fff;
-    background-color: #4761FF
+    background-color: rgb(13, 75, 133);
 }
 
 .dropdown-menu-dark .dropdown-item.disabled,.dropdown-menu-dark .dropdown-item:disabled {
@@ -3865,7 +3865,7 @@ textarea.form-control-lg {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #4761FF;
+    color: rgb(13, 75, 133);;
     transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out
 }
 
@@ -3928,7 +3928,7 @@ textarea.form-control-lg {
 
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #4761FF
+    background-color: rgb(13, 75, 133);
 }
 
 .nav-fill>.nav-link,.nav-fill .nav-item {
@@ -4005,6 +4005,7 @@ textarea.form-control-lg {
     flex-basis: 100%;
     flex-grow: 1;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar-toggler {
@@ -4017,9 +4018,16 @@ textarea.form-control-lg {
     transition: box-shadow 0.15s ease-in-out
 }
 
+
+
 @media (prefers-reduced-motion: reduce) {
     .navbar-toggler {
         transition: none
+    }
+
+    .navbar-toggler img{
+ 
+        display: none;
     }
 }
 
@@ -4652,7 +4660,7 @@ textarea.form-control-lg {
 .page-link {
     position: relative;
     display: block;
-    color: #4761FF;
+    color: rgb(13, 75, 133);;
     background-color: #fff;
     border: 1px solid #dee2e6;
     transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out
@@ -4686,8 +4694,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .page-item.disabled .page-link {
@@ -4894,7 +4902,7 @@ textarea.form-control-lg {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #4761FF;
+    background-color: rgb(13, 75, 133);;
     transition: width 0.6s ease
 }
 
@@ -4983,8 +4991,8 @@ textarea.form-control-lg {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #4761FF;
-    border-color: #4761FF
+    background-color: rgb(13, 75, 133);;
+    border-color: rgb(13, 75, 133);
 }
 
 .list-group-item+.list-group-item {
@@ -6324,7 +6332,7 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-    color: #4761FF
+    color: rgb(13, 75, 133);
 }
 
 .link-primary:hover,.link-primary:focus {
@@ -6741,7 +6749,7 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-    border-color: #4761FF !important
+    border-color: rgb(13, 75, 133)!important ;
 }
 
 .border-secondary {
@@ -7718,7 +7726,7 @@ textarea.form-control-lg {
 }
 
 .text-primary {
-    color: #4761FF !important
+    color: rgb(13, 75, 133)!important ;
 }
 
 .text-secondary {
@@ -7774,7 +7782,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-    background-color: #4761FF !important
+    background-color: rgb(13, 75, 133)!important ;
 }
 
 .bg-secondary {

@@ -26,6 +26,20 @@
     });
     
     
+    // Función para avanzar al siguiente elemento del carrusel
+    function avanzarCarrusel() {
+        const headerCarousel = document.getElementById("header-carousel");
+        const activeItem = headerCarousel.querySelector(".carousel-item.active");
+        const nextItem = activeItem.nextElementSibling || headerCarousel.querySelector(".carousel-item:first-child");
+        activeItem.classList.remove("active");
+        nextItem.classList.add("active");
+    }
+
+    // Cambiar automáticamente al siguiente elemento cada 5 segundos
+    setInterval(avanzarCarrusel, 5000);
+
+
+    
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -85,3 +99,16 @@
     
 })(jQuery);
 
+  const textos = ["VENTAS", "ASESORES", "DESARROLLO", "INNOVACIÓN"]; // Array de textos a mostrar
+  const intervalo = 2000; // Intervalo de cambio en milisegundos (2 segundos)
+
+  const elementoTexto = document.getElementById("texto-cambiante");
+  let indiceTexto = 0;
+
+  function cambiarTexto() {
+    elementoTexto.textContent = textos[indiceTexto];
+    indiceTexto = (indiceTexto + 1) % textos.length; // Cambiar al siguiente texto
+  }
+
+  cambiarTexto(); // Cambiar al primer texto al cargar la página
+  setInterval(cambiarTexto, intervalo); // Cambiar automáticamente cada 'intervalo' ms
