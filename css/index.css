@@ -107,7 +107,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--dark);
+    color: rgb(13, 75, 133);
 }
 
 .navbar .dropdown-toggle::after {
@@ -331,29 +331,23 @@
     color: white;
 }
 
+.service-text p{
+    text-align: start;
+}
+
 .service-item .service-text h5{
     color: white;
 }
 
-.service-item .service-text:hover {
-    background: white !important;
-}
-
-.service-item .service-text:hover * {
-    color: rgb(13, 75, 133);
-}
-
 .service-item:hover .service-text {
     top: -1.5rem;
+    
 }
 
 .service-item .service-text h5 {
     transition: .5s;
 }
 
-.service-item:hover .service-text h5 {
-    color: rgb(13, 75, 133);
-}
 
 .service-item .service-btn {
     position: absolute;
