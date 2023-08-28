@@ -433,28 +433,28 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <h2 class="mb-4">Contactanos</h2>
-                    <div class="row g-3">
+                    <form action="https://formsubmit.co/your@email.com" method="POST" class="row g-3">
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name">
                                 <label for="name">Nombre</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <input type="email" class="form-control" name="mail" placeholder="Your Email">
                                 <label for="mail">correo electronico</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <input type="text" class="form-control" name="mobile" placeholder="Your Mobile">
                                 <label for="mobile">Telefono</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <select class="form-select" id="service">
+                                <select class="form-select" name="service">
                                     <option selected>Soporte</option>
                                     <option value="">Venta Informática</option>
                                     <option value="">Consultoría</option>
@@ -465,7 +465,7 @@
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                <textarea class="form-control" placeholder="Leave a message here" name="message"
                                     style="height: 130px"></textarea>
                                 <label for="message">Mensaje</label>
                             </div>
@@ -473,7 +473,7 @@
                         <div class="col-12 text-center">
                             <button class="btn btn-primary w-100 py-3" type="submit" style="background-color: rgb(13, 75, 133);">Aplique ahora</button>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
