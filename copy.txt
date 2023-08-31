@@ -1,0 +1,163 @@
+       <!-- Service Start -->
+       <div class="container-xxl py-2" id="servicios">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-5" style="width: 100%; font-size: 40px;">Menu Interactivo Con Aplicativos</h1>
+            </div>
+            <div class="row g-4">
+                
+                
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/1.png') !important;">
+                     
+                            <h5 class="mb-3">Departamento Gerencia</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5"  style="background-image: url('./img/4.png') !important;">
+                         
+                            <h5 class="mb-3">Departamento Gerencia de Proyectos</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+ 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s" >
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/1.png') !important;">
+                            <h5 class="mb-3">Departamento Administracíon</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/4.png') !important;">
+                   
+                            <h5 class="mb-3">Departamento Compras</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/3.png') !important;">
+                         
+                            <h5 class="mb-3">Departamento Contabilidad</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+ 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5"  style="background-image: url('./img/3.png') !important;">
+                         
+                            <h5 class="mb-3">Departamento Soporte</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+ 
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+        <!-- Main Content -->
+    <main>
+
+        <div class="c">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-5" style="width: 100%; font-size: 40px;">INTRANET</h1>
+            </div>
+            <div class="row g-4">
+                
+                
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/1.png') !important;">
+                     
+                            <h5 class="mb-3">Departamento Gerencia</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5"  style="background-image: url('./img/4.png') !important;">
+                         
+                            <h5 class="mb-3">Departamento Gerencia de Proyectos</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+ 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s" >
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/1.png') !important;">
+                            <h5 class="mb-3">Departamento Administracíon</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/4.png') !important;">
+                   
+                            <h5 class="mb-3">Departamento Compras</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5" style="background-image: url('./img/3.png') !important;">
+                         
+                            <h5 class="mb-3">Departamento Contabilidad</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+ 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5"  style="background-image: url('./img/3.png') !important;">
+                         
+                            <h5 class="mb-3">Departamento Soporte</h4>
+                                <p class="mb-0"><!--<i class="fa fa-check" aria-hidden="true"></i> --></p>
+ 
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+    <!-- End of Main Content -->
